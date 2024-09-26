@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- Include Animate.css for animations -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      rel="stylesheet"
+    />
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+
+  <body class="bg-gray-100">
+    <!-- Navigation Bar -->
+    <nav
+      class="p-5 bg-gray-900 bg-gradient-to-r from-gray-600 shadow md:flex md:items-center md:justify-between"
+    >
+      <div class="flex justify-between items-center">
+        <span
+          class="text-2xl font-[Poppins] cursor-pointer text-blue-600 font-bold"
+        >
+          IT Doubts
+        </span>
+
+        <span class="text-3xl cursor-pointer mx-2 md:hidden block text-white">
+          <ion-icon name="menu" onclick="Menu(this)">&#8801;</ion-icon>
+        </span>
+      </div>
+
+      <ul
+        class="md:flex md:items-center z-[0.1] md:z-auto md:static absolute bg-gray-900 flex bg-gradient-to-r from-gray-600 text-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[400px] transition-all ease-in duration-500"
+      >
+        <li class="md:mx-4 mx-2 my-6 md:my-0">
+          <a href="#home" class="text-xl hover:text-cyan-500 duration-500"
+            >HOME</a
+          >
+        </li>
+        <li class="md:mx-4 mx-2 my-6 md:my-0">
+          <a href="#about" class="text-xl hover:text-cyan-500 duration-500"
+            >ABOUT</a
+          >
+        </li>
+        <li class="md:mx-4 mx-2 my-6 md:my-0">
+          <a href="#skills" class="text-xl hover:text-cyan-500 duration-500"
+            >Technologies</a
+          >
+        </li>
+        <li class="md:mx-4 mx-2 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-cyan-500 duration-500"
+            >Contact</a
+          >
+        </li>
+
+        <h2 class=""></h2>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header
+      id="home"
+      class="bg-gray-900 bg-gradient-to-r from-gray-600 text-white py-20 md:flex m-10 md:rounded-lg rounded-t-full animate__animated animate__fadeInUp"
+    >
+      <div class="container mx-auto text-center md:mt-36 mt-24">
+        <h1 class="md:text-4xl text-3xl font-bold mb-4 text-blue-600">
+          IT Doubts Software Based Campany.
+        </h1>
+
+        <h2 class="text-2xl">
+          IT Doubts is a Full Stack development Campany....
+        </h2>
+
+        <h3 class="text-1xl text-blue-600">Java Full Stack & UI/UX Designer</h3>
+
+        <br />
+
+        <a
+          href="#"
+          class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full"
+          >Let's Talk</a
+        >
+      </div>
+      <div class="mr-36 md:mr-56">
+        <img class="m-8" src="/img/programming-language.png" alt="" />
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <div class="container mx-auto py-2">
+      <div class="text-center m-auto">
+        <h2 class="text-3xl font-bold text-blue-600">About</h2>
+        <div class="w-36 h-1 border-b-4 border-gray-800 m-auto pt-3"></div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <img
+            src="/img/programming.png"
+            alt="Profile Picture"
+            class="mx-auto w-64 h-64 object-cover"
+          />
+        </div>
+        <div class="text-center p-4">
+          <p class="text-lg leading-relaxed">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+            aspernatur dolorem consequatur rerum laudantium, maxime, illum
+            reprehenderit itaque fugit labore quas! Itaque voluptatibus autem
+            tenetur perferendis ducimus necessitatibus alias similique, non vel
+            magnam voluptates molestiae, nihil vero neque eaque! Sunt dolores
+            sapiente quis adipisci!
+          </p>
+          <p class="text-lg leading-relaxed mt-4">
+            I specialize in HTML, CSS, JavaScript, and several frameworks such
+            as React and Backend framework spring boot in java. I'm constantly
+            learning and exploring new technologies to enhance my skills and
+            deliver the best solutions to my clients.
+          </p>
+          <p class="text-lg leading-relaxed mt-4">
+            Feel free to check out my portfolio to see some of my work. If you
+            have any questions or inquiries, don't hesitate to contact me.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- what to do -->
+    <section id="about" class="bg-slate-400 py-2">
+      <div class="text-center m-auto">
+        <h2 class="text-3xl font-bold text-blue-600">Services</h2>
+
+        <div class="w-36 h-1 border-b-4 border-gray-800 m-auto pt-3"></div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div
+          class="my-2 justify-around items-center gap-6 bg-slate-400 border-4 hover:border-gray-800 text-gray-900 py-20 px-10 m-10 rounded-lg"
+        >
+          <div class="">
+            <img class="h-40" src="/img/nlp.png" alt="/" />
+          </div>
+
+          <h3 class="text-2xl font-semibold text-blue-800">
+            Full Stack Developer
+          </h3>
+          <p>
+            A Full-Stack developer is a professional responsible for working on
+            both front-end and back-end development processes.
+          </p>
+        </div>
+        <div
+          class="my-2 justify-around items-center gap-12 bg-slate-400 border-4 hover:border-gray-800 text-gray-900 py-20 px-10 m-10 rounded-lg"
+        >
+          <div class="">
+            <img class="h-40" src="/img/programming.png" alt="/" />
+          </div>
+
+          <h3 class="text-2xl font-semibold text-blue-800">
+            Front-End Developer
+          </h3>
+          <p>
+            Front-End Developer Responsibilities: Collaborate with designers,
+            optimize applications, develop features, and maintain brand
+            consistency for user-facing interfaces.
+          </p>
+        </div>
+
+        <div
+          class="my-2 justify-around items-center gap-12 bg-slate-400 border-4 hover:border-gray-800 text-gray-900 py-20 px-10 m-10 rounded-lg"
+        >
+          <div class="">
+            <img class="h-40" src="/img/code (1).png" alt="/" />
+          </div>
+
+          <h3 class="text-2xl font-semibold text-blue-800">
+            Back-End Developer
+          </h3>
+          <p>
+            Back-end developers are the experts who build and maintain the
+            mechanisms that process data and perform actions on websites.
+          </p>
+        </div>
+        <div
+          class="my-2 justify-around items-center gap-6 bg-slate-400 border-4 hover:border-gray-800 text-gray-900 py-20 px-10 m-10 rounded-lg"
+        >
+          <div class="">
+            <img class="h-40" src="/img/nlp.png" alt="/" />
+          </div>
+
+          <h3 class="text-2xl font-semibold text-blue-800">
+            Full Stack Developer
+          </h3>
+          <p>
+            A Full-Stack developer is a professional responsible for working on
+            both front-end and back-end development processes.
+          </p>
+        </div>
+        <div
+          class="my-2 justify-around items-center gap-6 bg-slate-400 border-4 hover:border-gray-800 text-gray-900 py-20 px-10 m-10 rounded-lg"
+        >
+          <div class="">
+            <img class="h-40" src="/img/nlp.png" alt="/" />
+          </div>
+
+          <h3 class="text-2xl font-semibold text-blue-800">
+            Full Stack Developer
+          </h3>
+          <p>
+            A Full-Stack developer is a professional responsible for working on
+            both front-end and back-end development processes.
+          </p>
+        </div>
+        <div
+          class="my-2 justify-around items-center gap-6 bg-slate-400 border-4 hover:border-gray-800 text-gray-900 py-20 px-10 m-10 rounded-lg"
+        >
+          <div class="">
+            <img class="h-40" src="/img/nlp.png" alt="/" />
+          </div>
+
+          <h3 class="text-2xl font-semibold text-blue-800">
+            Full Stack Developer
+          </h3>
+          <p>
+            A Full-Stack developer is a professional responsible for working on
+            both front-end and back-end development processes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- skilss -->
+    <section id="skills" class="bg-slate-400 py-2">
+      <div class="text-center m-auto">
+        <h2 class="text-3xl font-bold text-blue-600">Technologies</h2>
+        <div class="w-36 h-1 border-b-4 border-gray-800 m-auto pt-3"></div>
+      </div>
+
+      <div class="container mx-auto py-8">
+        <!-- Skill Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 pr- lg:grid-cols-3 gap-6">
+          <!-- Skill Card 1 -->
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden animate__animated animate__fadeInUp flex border-4 hover:border-gray-800 ml-4 mr-4"
+          >
+            <div class="p-6 md:p-8">
+              <img class="h-20" src="/img/html.png" alt="" />
+            </div>
+            <div class="p-6 md:p-8">
+              <img class="h-20" src="/img/java-script.png" alt="" />
+            </div>
+            <div class="p-6 md:p-8">
+              <img class="h-20" src="/img/css-3.png" alt="" />
+            </div>
+          </div>
+
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden animate__animated animate__fadeInUp flex border-4 hover:border-gray-800 ml-4 mr-4"
+          >
+            <div class="p-6 md:p-8">
+              <img class="h-20" src="/img/tailwind.png" alt="" />
+            </div>
+            <div class="p-6 md:p-8">
+              <img class="h-20" src="/img/react.png" alt="" />
+            </div>
+            <div class="p-6 md:p-8">
+              <img class="h-20" src="/img/bootstrap.png" alt="" />
+            </div>
+          </div>
+
+          <div
+            class="bg-white rounded-lg shadow-md overflow-hidden animate__animated animate__fadeInUp flex border-4 hover:border-gray-800 ml-4 mr-4"
+          >
+            <div class="p-6 md:p-8">
+              <img class="h-20" src="/img/java.png" alt="" />
+            </div>
+            <div class="p-6 md:p-8">
+              <img class="h-20" src="/img/mysql.png" alt="" />
+            </div>
+            <div class="p-6 md:p-8">
+              <img class="h-20" src="/img/mdb2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-200 text-blue-900 py-10 md:py-10">
+      <div class="container mx-auto text-center">
+        <div class="flex items-center gap-3 px-24 md:px-96 md:mx-72">
+          <img
+            class="h-12 rounded-full border-2 border-blue-800"
+            src="/img/guru1.jpeg "
+            alt=""
+          />
+          <h2 class="">It_Doubts</h2>
+        </div>
+        <p>Copyright&copy; 2024 itdoubts@gmail.com</p>
+
+        <div class="mt-4 mb-8 flex gap-4 justify-around">
+          <div class="flex space-x-3">
+            <a href="#"
+              ><img src="/img/icons8-instagram.svg" alt="" class="w-8 h-8"
+            /></a>
+            <a href="#"
+              ><img src="/img/icons8-linkedin-48.png" alt="" class="w-8 h-8"
+            /></a>
+            <a href="#"
+              ><img src="/img/icons8-github-48.png" alt="" class="w-8 h-8"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Include JavaScript for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.js"></script>
+
+    <script>
+      function Menu(e) {
+        let list = document.querySelector("ul");
+        e.name === "menu"
+          ? ((e.name = "close"),
+            list.classList.add("top-[80px]"),
+            list.classList.add("opacity-100"))
+          : ((e.name = "menu"),
+            list.classList.remove("top-[80px]"),
+            list.classList.remove("opacity-100"));
+      }
+    </script>
+  </body>
+</html>
